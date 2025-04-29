@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 
 # --- Step 1: Load dataset ---
 # Make sure your dataset has a "label" column
-data = pd.read_csv('winequality_FS')  
+data = pd.read_csv('https://raw.githubusercontent.com/shannan-2005/CI-CD/refs/heads/main/winequality_FS.csv')  
 
 # Features and target
 X = data.drop('quality', axis=1)
